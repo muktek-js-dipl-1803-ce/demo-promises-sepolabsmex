@@ -22,3 +22,6 @@ table{
 td {
   text-align: right;
 }
+td:nth-of-type(2) {
+  text-align: right;
+}
