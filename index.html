@@ -11,7 +11,7 @@
         <h1>Mexico - City Count by State</h1>
         <p>Data provided by <strong>Sepomex API</strong><br/><a href="http://sepomex.icalialabs.com/api/v1/states" target="_blank">http://sepomex.icalialabs.com/api/v1/states</a></p>
         <hr/>
-
+        <div class="errors" style="color: red;"></div>
         <table id="mex-city-count">
           <thead>
             <tr>
@@ -21,11 +21,16 @@
           </thead>
           <tbody>
             <!-- DATA GOES HERE -->
+
           </tbody>
         </table>
+
+        <!-- <button id='getData'>Fetch all states!</button> -->
       </div>
 
+
       <!-- ADD Promise Library! -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/superagent/3.6.0/superagent.min.js"></script>
       <script src="./js/app.js"></script>
    </body>
 </html>
