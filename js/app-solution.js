@@ -1,4 +1,5 @@
-// OLD WAY
+// I - OLD WAY -- newXMLHttpRequest()
+
 // const xhr = new XMLHttpRequest();
 // xhr.open('GET', 'http://sepomex.icalialabs.com/api/v1/states');
 // xhr.send()
@@ -13,6 +14,9 @@
 //     console.log("error");
 //   }
 // }
+
+
+// II - MODERN WAY -- newXMLHttpRequest()
 
 
 const request = superagent;
